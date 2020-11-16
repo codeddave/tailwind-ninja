@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-netninja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeddave/tailwind-ninja.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeddave/tailwind-ninja/issues"
+  },
+  "homepage": "https://github.com/codeddave/tailwind-ninja#readme",
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}
