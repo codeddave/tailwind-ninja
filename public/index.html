@@ -9,14 +9,16 @@
 <body class="text-gray-600 font-body">
 
     <div class="grid md:grid-cols-3">
-      <div class="md:col-span-1 flex justify-end">
+      <div class="md:col-span-1 md:flex md:justify-end">
         <nav class="text-right text-sm">
-          <div>
+          <div class="flex items-center justify-between">
             <h1 class="font-bold uppercase p-4 ">
               <a href="/">Food Ninja</a>
             </h1>
+            <div class="cursor-pointer md:hidden px-4" id="burger"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></div>
           </div>
-          <ul class="mt-2 p-2">
+          
+          <ul class="mt-2 p-2 hidden md:block " id="menu">
             <li class="text-gray-700 font-bold ">
               <a href="#" class="border-r-4 border-primary">
                 <span class="mr-2">Home</span>
@@ -99,6 +101,8 @@
         </div>    
       </main>
     </div>
-   
+    <script src="index.js"></script> 
   </body>
+
+
 </html>
